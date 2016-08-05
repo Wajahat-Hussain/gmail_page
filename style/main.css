@@ -1,0 +1,55 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: darkcyan;
+}
+.container{
+
+}
+.container div span{
+	display: inline-block;
+	float: left;
+}
+
+.header1{
+	background-color: gray;
+	width: 100em;
+	height: 4em;
+	display: inline-block;
+	float: left;
+	border-bottom: 1px solid white;
+}
+#logo{
+	font-family: arial verdana sans-serif;
+	font-size: 50px;
+	color: white;
+	padding-left: 20px;
+	width: 200px;
+}
+#search{
+		margin: 15px;
+		padding-bottom: 10px;
+}
+#search_bar{
+	width: 700px;
+	height: 30px;
+}
+#search_btn{
+	float: left;
+	margin: 10px;
+}
+#right{
+    float: right;
+    padding: 12px 25px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+#C2{
+	border-radius: 10px;
+	width: 5px;
+	height: 5px;
+}
