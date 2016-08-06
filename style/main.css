@@ -60,3 +60,61 @@ li{
 	height: 40px;
 }
 /*header1 completed*/
+.header2{
+	background-color: gray;
+	width: 100em;
+	height: 4em;
+	display: inline-block;
+	float: left;
+	border-bottom: 1px solid white;
+}
+.header2_left{
+	float: left;
+	display: inline-block;
+}
+#gmail{
+	margin: 1.5em;
+	width: 130px;
+	height: 20px;
+}
+#check{
+	margin: 1.5em;
+	width: 80px;
+}
+#next{
+	width: 5em;
+	background-color: white;
+	height: 1.5em;
+}
+#check2{
+	margin: 1em;
+}
+.box2{
+	float: left;
+	display: inline-block;
+	width: 5em;
+	height: 2.5em;
+	background-color: white;
+}
+.box2 #refresh{
+	padding:5px 25px;
+}
+#refresh{
+	height: 30px;
+}
+#check3{
+	margin: 1em;
+}
+.header2_right{
+	float: right;
+	display: inline-block;
+}
+.header2_right span{
+	margin: 1em;
+}
+#img{
+	margin-top: 20px;
+}
+#num{
+	padding: 10px 10px;
+}
