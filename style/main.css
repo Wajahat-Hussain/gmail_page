@@ -6,13 +6,12 @@ body{
 	background-color: darkcyan;
 }
 .container{
-
+	width: 100em;
 }
 .container div span{
 	display: inline-block;
 	float: left;
 }
-
 .header1{
 	background-color: gray;
 	width: 100em;
@@ -45,11 +44,11 @@ body{
 	margin-right: 10px;
 	height: 35px;
 }
-#right{
+#right ul{
     float: right;
     padding: 12px 25px;
 }
-li{
+ul li{
     display: inline-block;
     list-style: none;
     margin: 5px;
@@ -151,11 +150,10 @@ li{
 	width: 10em;
 	height: 2em;
 	font-size: 20px;
-}
-li{
 	padding-left: 4em;
 	padding-top: 1em;
 	font-size: 1em;
+
 }
 .main_list table tr td{
 	padding-right: 20px;
