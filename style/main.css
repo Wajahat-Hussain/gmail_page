@@ -3,8 +3,7 @@
 	padding: 0px;
 }
 body{
-	/*background-image: url("../Img/bbb.jpg");*/
-	background-color: darkcyan;
+	background-image: url("../Img/bbbb.jpg");
 	background-position: left center;
 	background-repeat: no-repeat;
 }
@@ -96,6 +95,7 @@ ul li{
 #next{
 	width: 60px;
 	border-radius: 2px;
+	background-color: white;
 	border: 1px solid white;
 	padding: 1em 10px;
 	height: 8px;
@@ -113,6 +113,7 @@ ul li{
 	display: inline-block;
 	width: 5em;
 	height: 2.5em;
+	background-color: white;
 	border: 1px solid white;
 }
 .box2 #refresh{
@@ -149,8 +150,9 @@ ul li{
 
 /*=======Header ka sencond part yahan end hua ab aside pr working start kring*/
 .aside{
-	width: 10em;
+	width: 12em;
 	height: 30em;
+	border-bottom: 2px solid gray;
 	border-right: 2px solid gray;
 }
 #aside1 button{
@@ -168,8 +170,8 @@ ul li{
 	margin: 1em 1em;
 }
 .mails{
-	
-	width: 88em;
+	border-radius: 2px;
+	width: 80em;
 	border-bottom: 1px solid black;
 }
 }
@@ -178,7 +180,7 @@ ul li{
 }
 #main_btn li{
 	display: inline-block;
-	background-color: gray;
+	background-color: white;
 	font-size: 20px;
 	border: 1px solid white;
 	float: center;
@@ -186,16 +188,18 @@ ul li{
 	height: 2em;
 	padding-left: 4em;
 	padding-top: 1em;
+	opacity: 0.5;
 }
 #main_btn li a{
 	display: inline-block;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 .plus{
+	border-radius: 2px;
 	margin-top: 5px;
 	margin-left: 8px;
-	background-color: gray;
+	background-color: white;
 	font-size: 20px;
 	border: 1px solid white;
 	float: center;
@@ -207,13 +211,17 @@ ul li{
 }
 .plus ul li a{
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 .main_list table tr td{
+	opacity: 0.8;
 	padding-right: 20px;
 	height: 2em;
+	color: black;
+	background-color: white;
 }
 #main_items tr{
+	margin: 0px;
 	border-bottom: 1px solid black;
 }
 .mailings{
