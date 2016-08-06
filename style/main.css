@@ -3,9 +3,14 @@
 	padding: 0px;
 }
 body{
+	/*background-image: url("../Img/bbb.jpg");*/
 	background-color: darkcyan;
+	background-position: left center;
+	background-repeat: no-repeat;
 }
 .container{
+	color: white;
+	font-family: arial verdana sans-serif
 	width: 100em;
 }
 .container div span{
@@ -13,17 +18,19 @@ body{
 	float: left;
 }
 .header1{
-	background-color: gray;
 	width: 100em;
 	height: 4em;
 	display: inline-block;
 	float: left;
 	border-bottom: 1px solid white;
 }
+#logo a{
+	text-decoration: none;
+	color: white;
+}
 #logo{
 	font-family: arial verdana sans-serif;
 	font-size: 50px;
-	color: white;
 	padding-left: 20px;
 	width: 150px;
 }
@@ -58,42 +65,55 @@ ul li{
 	width: 40px;
 	height: 40px;
 }
-/*header1 completed*/
+/*=======header1 completed========*/
 .header2{
-	background-color: gray;
 	width: 100em;
 	height: 4em;
 	display: inline-block;
 	float: left;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid gray;
 }
 .header2_left{
 	float: left;
 	display: inline-block;
 }
 #gmail{
-	margin: 1.5em;
+	margin: 1em;
 	width: 130px;
 	height: 20px;
 }
+#gmail_btn{
+	border: 1px solid black; 
+	width: 6em;
+	height: 3em;
+	border-radius: 2px;
+	padding-left: 17px;
+}
 #check{
-	margin: 1.5em;
-	width: 80px;
+	margin: 1em;
+	width: 70px;
 }
 #next{
-	width: 5em;
-	background-color: white;
-	height: 1.5em;
+	width: 60px;
+	border-radius: 2px;
+	border: 1px solid white;
+	padding: 1em 10px;
+	height: 8px;
+	padding-left: 20px;
 }
 #check2{
+	border-radius: 2px;
 	margin: 1em;
+	width: 70px;
+	padding-left: 10px;
 }
 .box2{
+	border-radius: 2px;
 	float: left;
 	display: inline-block;
 	width: 5em;
 	height: 2.5em;
-	background-color: white;
+	border: 1px solid white;
 }
 .box2 #refresh{
 	padding:5px 25px;
@@ -103,6 +123,15 @@ ul li{
 }
 #check3{
 	margin: 1em;
+	width: 80px;
+	height: 2em;
+}
+#box3_btn{
+	border: 1px solid black;
+	padding-left: 17px;
+	width: 6em;
+	height: 3em;
+	border-radius: 2px;
 }
 .header2_right{
 	float: right;
@@ -118,13 +147,16 @@ ul li{
 	padding: 10px 10px;
 }
 
-/*Header ka sencond part yahan end hua ab aside pr working start kring*/
+/*=======Header ka sencond part yahan end hua ab aside pr working start kring*/
 .aside{
 	width: 10em;
 	height: 30em;
-	background-color: green;
+	border-right: 2px solid gray;
 }
-#aside1 button img{
+#aside1 button{
+	background-color: red;
+	color: white;
+	border-radius: 3px;
 	width: 8em;
 	height: 2em;
 }
@@ -136,7 +168,7 @@ ul li{
 	margin: 1em 1em;
 }
 .mails{
-	background-color: white;
+	
 	width: 88em;
 	border-bottom: 1px solid black;
 }
@@ -145,15 +177,37 @@ ul li{
 	display: inline-block;
 }
 #main_btn li{
-	background-color: blue;
-	float: center;
-	width: 10em;
-	height: 2em;
+	display: inline-block;
+	background-color: gray;
 	font-size: 20px;
+	border: 1px solid white;
+	float: center;
+	width: 8em;
+	height: 2em;
 	padding-left: 4em;
 	padding-top: 1em;
-	font-size: 1em;
-
+}
+#main_btn li a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+.plus{
+	margin-top: 5px;
+	margin-left: 8px;
+	background-color: gray;
+	font-size: 20px;
+	border: 1px solid white;
+	float: center;
+	width: 30px;
+	height: 45px;
+	padding-left: 7px;
+	padding-top: 15px;
+	display: inline-block;
+}
+.plus ul li a{
+	text-decoration: none;
+	color: white;
 }
 .main_list table tr td{
 	padding-right: 20px;
