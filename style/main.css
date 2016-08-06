@@ -118,3 +118,58 @@ li{
 #num{
 	padding: 10px 10px;
 }
+
+/*Header ka sencond part yahan end hua ab aside pr working start kring*/
+.aside{
+	width: 10em;
+	height: 30em;
+	background-color: green;
+}
+#aside1 button img{
+	width: 8em;
+	height: 2em;
+}
+#aside1 a{
+	text-decoration: none;
+	color: white;
+}
+.aside table{
+	margin: 1em 1em;
+}
+.mails{
+	background-color: white;
+	width: 88em;
+	border-bottom: 1px solid black;
+}
+}
+.mails ul li{
+	display: inline-block;
+}
+#main_btn li{
+	background-color: blue;
+	float: center;
+	width: 10em;
+	height: 2em;
+	font-size: 20px;
+}
+li{
+	padding-left: 4em;
+	padding-top: 1em;
+	font-size: 1em;
+}
+.main_list table tr td{
+	padding-right: 20px;
+	height: 2em;
+}
+#main_items tr{
+	border-bottom: 1px solid black;
+}
+.mailings{
+	width: 70em;
+}
+.date{
+	padding-left: 6px;
+}
+.mails div table tr td{
+	border-bottom: 1px solid black;
+}
